@@ -99,3 +99,18 @@ import 'asimov-javascript-extensions';
 ```
 
 ## String Extensions
+
+```javascript
+'23'.padZeros(3) // returns '023'
+'23'.padZeros(5) // returns '00023'
+'23'.padZeros(1) // returns '23'
+
+'hello'.removePrefix('h') // returns 'ello'
+'hello'.removePrefix('he') // returns 'llo'
+'hello'.removePrefix('by') // returns 'hello'
+
+'hello'.countOccurrences('he') // returns 1
+'hello'.countOccurrences('l') // returns 2
+'hello'.countOccurrences('w') // returns 0
+
+```
