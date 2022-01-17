@@ -9,7 +9,7 @@ Useful javascript/typescript extensions
 
 Npm:
 ```
-$ npm install asimov-javascript-extensions
+$ npm install --save asimov-javascript-extensions
 ```
 
 Yarn:
