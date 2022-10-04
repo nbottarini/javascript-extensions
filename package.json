@@ -1,6 +1,6 @@
 {
   "name": "asimov-javascript-extensions",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Useful javascript/typescript extensions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
