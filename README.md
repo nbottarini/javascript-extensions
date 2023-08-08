@@ -1,26 +1,27 @@
-[![npm](https://img.shields.io/npm/v/asimov-javascript-extensions.svg)](https://www.npmjs.com/package/asimov-javascript-extensions)
+[![npm](https://img.shields.io/npm/v/@nbottarini/javascript-extensions.svg)](https://www.npmjs.com/package/@nbottarini/javascript-extensions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI Status](https://github.com/nbottarini/asimov-javascript-extensions/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/nbottarini/asimov-javascript-extensions/actions?query=branch%3Amain+workflow%3Aci)
+[![CI Status](https://github.com/nbottarini/javascript-extensions/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/nbottarini/javascript-extensions/actions)
 
-# Asimov Javascript Extensions
+
+# Javascript Extensions
 Useful javascript/typescript extensions
 
 ## Installation
 
 Npm:
 ```
-$ npm install --save asimov-javascript-extensions
+$ npm install --save @nbottarini/javascript-extensions
 ```
 
 Yarn:
 ```
-$ yarn add asimov-javascript-extensions
+$ yarn add @nbottarini/javascript-extensions
 ```
 
 Then simply import the module from the main javascript/typescript file of your application or library:
 
 ```javascript
-import 'asimov-javascript-extensions';
+import '@nbottarini/javascript-extensions'
 ```
 
 ## Array Extensions
@@ -112,5 +113,4 @@ import 'asimov-javascript-extensions';
 'hello'.countOccurrences('he') // returns 1
 'hello'.countOccurrences('l') // returns 2
 'hello'.countOccurrences('w') // returns 0
-
 ```
