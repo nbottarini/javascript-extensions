@@ -133,4 +133,4 @@ Array.prototype.singleOrNull = function(condition?: (item) => boolean) {
     return elements[0]
 }
 
-export {}
+export { }

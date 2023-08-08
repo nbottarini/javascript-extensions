@@ -1,6 +1,6 @@
 {
   "name": "@nbottarini/javascript-extensions",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Useful javascript/typescript extensions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

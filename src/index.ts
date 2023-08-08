@@ -1,2 +1,3 @@
-import './ArrayExtensions';
-import './StringExtensions';
+import './ArrayExtensions'
+import './StringExtensions'
+export type Dummy = {} // To ensure proper modularization
