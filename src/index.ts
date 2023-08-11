@@ -1,3 +1,5 @@
 import './ArrayExtensions'
 import './StringExtensions'
-export type Dummy = {} // To ensure proper modularization
+
+export * from './BaseError'
+export * from './Nullable'

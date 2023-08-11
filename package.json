@@ -1,6 +1,6 @@
 {
   "name": "@nbottarini/javascript-extensions",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Useful javascript/typescript extensions",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -27,6 +27,9 @@
     "check-all": "yarn lint && yarn test",
     "lint": "eslint . && tsc --noEmit",
     "test": "jest"
+  },
+  "dependencies": {
+    "ts-custom-error": "^3.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.10",
